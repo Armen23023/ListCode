@@ -1,4 +1,4 @@
-package StringToInteger8;
+package org.example.StringToInteger8;
 
 public class STI8 {
     public static void main(String[] args) {
