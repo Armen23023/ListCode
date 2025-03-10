@@ -2,7 +2,6 @@ package org.example.TwoSum1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -26,8 +25,7 @@ class Solution {
 
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i])) {
-                if (nums[i] + nums[map.get(target - nums[i])] == target
-                        && i != map.get(target - nums[i])) {
+                if (i != map.get(target - nums[i])) {
                     arr.add(i);
                     arr.add(map.get(target - nums[i]));
                     break;

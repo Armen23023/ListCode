@@ -6,7 +6,7 @@ import java.util.Set;
 public class LSWRC3 {
     public static void main(String[] args) {
     Solution s  = new Solution();
-        int str = s.lengthOfLongestSubstring("aab");
+        int str = s.lengthOfLongestSubstring("abcabcbb");
         System.out.println(str);
     }
 

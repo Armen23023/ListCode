@@ -12,7 +12,7 @@ class Solution {
 
         int left = 0,right = height.length-1;
         int ret =  0;
-        int val = 0;
+        int val;
 
 
         while(left != right){
@@ -30,6 +30,6 @@ class Solution {
                 ret = val;
             }
         }
-        return val;
+        return ret;
     }
 }
