@@ -1,7 +1,5 @@
 package org.example.ZigZagConversion6;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 public class ZZC6 {
     public static void main(String[] args) {
@@ -41,7 +39,4 @@ class Solution {
         }
         return sb.toString();
     }
-
-    Deque deque = new ArrayDeque();
-
 }
